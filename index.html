@@ -1,0 +1,153 @@
+<html>
+<head>
+    <title>
+    My Photo Gallery Browser
+    </title>
+    <link href="style.css" rel="stylesheet">
+    <script src=""></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    <center>
+    <ul class="menu">
+        <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#grid">Grid View</a></li>
+        <li class="links"><a href="#slide">Slide View</a></li>
+       </ul></center>
+    <section id="home">
+    <img id="wolfpic"src="wolf.jpeg">
+        </section>
+        <section id="grid">
+        <h1>Grid Gallery</h1>
+            <br>
+            <div class="row">            
+            <img class="img2" src="bunny.jpeg">
+            <img class="img2" src="owl.jpeg">  
+            <img class="img2"src="penguin.png">  
+            <img class="img2"src="sloth.jpeg">
+            </div>
+             <div class="row">
+            <img class="img2" src="tiger.jpg">
+             <img class="img2"src="giraffe.jpeg">
+             <img class="img2" src="puppy.jpeg">
+            <img class="img2" src="dolphin.jpeg">
+            </div>
+             </section>
+        <section id="slide">
+            <h1>Slide Gallery</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+                <div class="item active">
+                <center>
+                       <div class="img2"> 
+                    <img class="img-responsive" src="bunny.jpeg">
+                    </div>
+                    <div class="carousel-content">
+                        <h3>
+                              Rabbit
+                            </h3>
+                     </div>
+                    </center>
+                </div>
+            <div class="item">
+
+                    <center>
+                         <div class="img2">
+                        <img class="img-responsive" src="dolphin.jpeg">
+                        </div>
+                        
+                       
+                        <div class="carousel-content">
+                            <h3>Dolphin</h3>
+                        </div>
+                    </center>
+                </div>
+             <div class="item">
+
+                    <center>
+                         <div class="img2">
+                        <img class="img-responsive"src="giraffe.jpeg">
+                        </div>
+                        
+                       
+                        <div class="carousel-content">
+                            <h3>Giraffe</h3>
+                        </div>
+                    </center>
+                </div>
+            <div class="item">
+
+                    <center>
+                         <div class="img2">
+                        <img class="img-responsive" src="owl2.jpeg">
+                        </div>
+                        
+                    <div class="carousel-content">
+                            <h3>Owl</h3>
+                        </div>
+                    </center>
+                </div>
+            <div class="item">
+
+                    <center>
+                       <div class="img2">
+                         <img class="img-responsive"src="penguin.png">
+                        </div>
+                       
+                       
+                        <div class="carousel-content">
+                            <h3>Penguin</h3>
+                        </div>
+                    </center>
+                </div>
+            <div class="item">
+
+                    <center>
+                        <div class="img2">
+                         <img class="img-responsive"src="puppy.jpeg">
+                        </div>
+                       
+                       
+                        <div class="carousel-content">
+                            <h3>Puppies</h3>
+                        </div>
+                    </center>
+                </div>
+            <div class="item">
+
+                    <center>
+                         <div class="img2" >
+                        <img class="img-responsive"src="sloth.jpeg" >
+                        </div>
+                        
+                       
+                        <div class="carousel-content">
+                            <h3>Sloth</h3>
+                        </div>
+                    </center>
+                </div>
+            <div class="item">
+
+                    <center>
+                        <div class="img2">
+                            <img class="img-responsive"src="tiger.jpg" >
+                        </div>
+                        
+                       
+                        <div class="carousel-content">
+                            <h3>Tiger</h3>
+                        </div>
+                    </center>
+                </div>
+            </div>
+         
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right">
+                </span> </a>
+        </div>
+    </section>
+    </body>
+</html>
